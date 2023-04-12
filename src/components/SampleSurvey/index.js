@@ -4,7 +4,7 @@ function SampleSurvey() {
 return (
 
     <div>
-        <form>
+        <form onSubmit={(e)=>{}}>
             <label> What is your reason for considering a survey?
 
             <input type= 'radio' name= 'q1' value='1'/>
